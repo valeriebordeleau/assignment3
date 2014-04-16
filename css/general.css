@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #C6DEC0;
+}
+
+.logo {
+    width:6rem;
+    height: auto;
+    float:left;
+    margin: 1.5rem 5%;
+}
+
+.nav-top {
+    clear:both;
+}
+
+.nav-top ul {
+    margin:0;
+    padding:0;
+    background-color:#C6DEC0;
+    text-align:center;
+}
+
+.nav-top li {
+    margin:0;
+    padding:0;
+    display:inline;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+    display:inline-block;
+    margin:0;
+    padding:1.5rem 10%;
+    color: #E4632C;
+    font-size:1.25rem;
+    text-decoration:none;
+    font-family:'Amaranth', helvetica, sans-serif;
+}
+
+.selected {
+    background-color:#8BC37B;
+}
+
+article {
+    margin: 0;
+    padding: 1.5rem 5%;
+    overflow: hidden;
+}
+
+.billboard {
+    overflow:hidden;
+    background-image:url(../images/bordeleau-1.jpg);
+    background-color:black;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:auto;
+    height: 20rem;
+    width: auto;
+}
+
+h1 {
+    font-family:'Amaranth';
+    color: white;
+    background-color: #8BC37B;
+    font-size: 3rem;
+    text-align: center;
+    margin:16rem 0;
+    font-weight:normal;
+    padding:.25rem 5%;   
+}
+
+h2 {
+    font-family:'Amaranth';
+    color: #E4632C;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;   
+}
+
+p {
+    font-family: Baskerville, Times, Serif; 
+    font-size: 1rem;
+}
+
+hr {
+    border: .15rem dashed #8BC37B;
+    margin: 0 0 5%;
+}
+
+img {
+	width: 45%;
+    display: block;
+    margin: 0 0 2%;
+}
+
+footer {
+    background-color: #C6DEC0;
+    padding: 1.5rem 5%;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.bucket {
+    margin: 0;
+    padding: 0 40% 0 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.bucket li {
+    float: left;
+    width: 30%;
+    margin: 0 5% 1.5rem 0;
+    padding: 0;
+}
+
+.bucket li:nth-child(3) {
+    margin: 0;
+}
+
+.bucket a {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 100% 0 0; 
+}
+
+.one {
+    background-image: url(../images/facebook.svg); 
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-image: url(../images/twitter.svg);
+    background-repeat: no-repeat;
+}
+
+.three {
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+}
+
