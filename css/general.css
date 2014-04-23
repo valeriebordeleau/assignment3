@@ -98,6 +98,17 @@ article {
     width: auto;
 }
 
+.aboutbillboard {
+    overflow:hidden;
+    background-image:url(../images/bordeleau-12.jpg);
+    background-color:black;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:auto;
+    height: 20rem;
+    width: auto;
+}
+
 h1 {
     font-family:'Amaranth';
     color: white;
@@ -184,3 +195,48 @@ ul {
     background-repeat: no-repeat;
 }
 
+.bucket3 li {
+    float: left;
+    width: 30%;
+    margin: 0 5% 1.5rem 0;
+    padding: 0;
+}
+
+.bucket b {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 100% 0 0; 
+}
+
+.first {
+    background-image: url(../images/bordeleau-2.jpg); 
+    background-repeat: no-repeat;
+}
+
+.second {
+    background-image: url(../images/bordeleau-3.jpg);
+    background-repeat: no-repeat;
+}
+
+.third {
+    background-image: url(../images/bordeleau-4.jpg);
+    background-repeat: no-repeat;
+}
+
+.fourth {
+    background-image: url(../images/bordeleau-5.jpg);
+    background-repeat: no-repeat;
+}
+
+.fifth {
+    background-image: url(../images/bordeleau-6.jpg);
+    background-repeat: no-repeat;
+}
+
+.sixith {
+    background-image: url(../images/bordeleau-7.jpg);
+    background-repeat: no-repeat;
+}
