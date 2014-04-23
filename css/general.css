@@ -79,49 +79,33 @@ article {
 .billboard {
     overflow:hidden;
     background-image:url(../images/bordeleau-1.jpg);
-    background-color:black;
-    background-position:center center;
+    background-color:red;
+    background-position:top center;
     background-repeat:no-repeat;
     background-size:auto;
-    height: 20rem;
-    width: auto;
 }
 
-.productbillboard {
-    overflow:hidden;
+.product {
     background-image:url(../images/bordeleau-11.jpg);
-    background-color:black;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:auto;
-    height: 20rem;
-    width: auto;
 }
 
-.aboutbillboard {
-    overflow:hidden;
+.about {
     background-image:url(../images/bordeleau-12.jpg);
-    background-color:black;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:auto;
-    height: 20rem;
-    width: auto;
 }
 
 h1 {
-    font-family:'Amaranth';
+    font-family:'Amaranth', Georgia, Times, serif;
     color: white;
     background-color: #8BC37B;
     font-size: 3rem;
     text-align: center;
-    margin:16rem 0;
+    margin:16rem 0 0;
     font-weight:normal;
     padding:.25rem 5%;   
 }
 
 h2 {
-    font-family:'Amaranth';
+    font-family:'Amaranth', Georgia, Times, serif;
     color: #E4632C;
     font-size: 2rem;
     padding: 0;
@@ -195,20 +179,37 @@ ul {
     background-repeat: no-repeat;
 }
 
-.bucket3 li {
+
+.bucket2 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none; 
+}
+
+.bucket2 li {
     float: left;
-    width: 30%;
-    margin: 0 5% 1.5rem 0;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
     padding: 0;
 }
 
-.bucket b {
+.bucket2 li:nth-child(even) {
+    margin: 0;
+}
+
+.bucket2 a {
     display: block;
     background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
     margin: 0;
-    padding: 100% 0 0; 
+    padding: 100% 0 0;
+}
+
+.bucket2 li {
+    font-family:'Amaranth', Georgia, Times, serif;
+    color: #E4632C;
 }
 
 .first {
