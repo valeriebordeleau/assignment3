@@ -79,7 +79,7 @@ article {
 .billboard {
     overflow:hidden;
     background-image:url(../images/bordeleau-1.jpg);
-    background-color:red;
+    background-color:grey;
     background-position:top center;
     background-repeat:no-repeat;
     background-size:auto;
